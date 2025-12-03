@@ -31,6 +31,8 @@ here i placed a virtual machine that represents optional backend workloads—dat
 
 
 but i also wanted to avoid exposing SSH/RDP ports, so i implemented bastion
+It provides SSH/RDP access directly through the Azure portal, without being exposed to the internet.
+This meant I could safely connect to my VMs without punching holes in the firewall.
 
 
 The Application Gateway became the front door of this architecture.
