@@ -23,4 +23,4 @@ It handles all incoming traffic, but more importantly, I configured it with:
 - Frontend IP & port listeners
 - HTTP/HTTPS routing rules
 - and most importantly, the Web Application Firewall (WAF)
-
+<img width="1187" height="819" alt="project1" src="https://github.com/user-attachments/assets/5e9d711e-f618-424b-a90c-c552f237f95f" />
