@@ -34,7 +34,7 @@ This meant I could safely connect to my VMs without punching holes in the firewa
 
 ---------------------------------------------------------------------------------------
 
-<img width="806" height="370" alt="image" src="https://github.com/user-attachments/assets/33565f81-0e12-4b84-bcf8-08b87635d274"/><br>
+<img width="792" height="371" alt="image" src="https://github.com/user-attachments/assets/7e466fc8-ee1c-4d81-95ac-d7056a215f72"/><br>
 The Application Gateway became the front door of this architecture.
 It handles all incoming traffic, but more importantly, I configured it with:
 - Frontend IP & port listeners
