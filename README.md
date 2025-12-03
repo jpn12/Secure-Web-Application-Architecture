@@ -26,7 +26,8 @@ This is where my web application lives, running on Azure App Service
 
 To simulate a real environment, i added a VM subnet.
 here i placed a virtual machine that represents optional backend workloads—databases, internal services, or admin tools.
-<img width="510" height="401" alt="image" src="https://github.com/user-attachments/assets/a4b9664b-6173-4b35-8f19-c2393b2ed9a1" />
+
+<img width="510" height="401" alt="image" src="https://github.com/user-attachments/assets/a4b9664b-6173-4b35-8f19-c2393b2ed9a1"/>
 
 
 but i also wanted to avoid exposing SSH/RDP ports, so i implemented bastion
