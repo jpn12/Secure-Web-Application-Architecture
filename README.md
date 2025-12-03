@@ -22,7 +22,7 @@ I built a Virtual Network (VNet)
 Azure enforces a rule:
 The Application Gateway must have its own subnet, so I created the App Gateway Subnet and placed it there.
 From that subnet, it routes traffic, but only internally to a Web App Subnet.
-This is where my web application lives, running on Azure App Service
+This is where my web application lives, running on Azure App Service(Not directly facing the internet, no public IP)
 
 To simulate a real environment, i added a VM subnet.
 here i placed a virtual machine that represents optional backend workloads—databases, internal services, or admin tools.
@@ -40,4 +40,8 @@ It handles all incoming traffic, but more importantly, I configured it with:
 - Frontend IP & port listeners
 - HTTP/HTTPS routing rules
 - and most importantly, the Web Application Firewall (WAF)
-<img width="1187" height="819" alt="project1" src="https://github.com/user-attachments/assets/5e9d711e-f618-424b-a90c-c552f237f95f" />
+<img width="1187" height="819" alt="project1" src="https://github.com/user-attachments/assets/5e9d711e-f618-424b-a90c-c552f237f95f" /><br>
+
+I Configured a backend pool for the gateway communicate with my web application<br>
+<img width="1263" height="567" alt="image" src="https://github.com/user-attachments/assets/442be686-41fa-47b5-b7de-1625eccc2f30" />
+
