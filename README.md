@@ -17,4 +17,10 @@ When a web app is publicly exposed, it becomes an easy target for attackers. The
 - misconfigurations
 - etc...
 
+So i deployed the Web application inside a private subnet in the Vnet.
+The Application Gateway became the front door of this architecture.
+It handles all incoming traffic, but more importantly, I configured it with:
+- Frontend IP & port listeners
+- HTTP/HTTPS routing rules
+- and most importantly, the Web Application Firewall (WAF)
 
