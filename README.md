@@ -46,4 +46,9 @@ It handles all incoming traffic, but more importantly, I configured it with:
 I configured a backend pool so the Application Gateway knows where to route incoming traffic to my web application<br>
 <img width="1269" height="541" alt="image" src="https://github.com/user-attachments/assets/17c3f3d6-ba6f-40b0-81d8-ef6ba9a53071" />
 
+I created several custom rules on the WAF, including a geoblocking rule.<br>
+<img width="1519" height="607" alt="image" src="https://github.com/user-attachments/assets/a82c4ac6-6f00-4890-b0e4-71c33053fa01" />
+
+
+
 
