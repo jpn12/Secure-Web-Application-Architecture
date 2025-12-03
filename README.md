@@ -7,8 +7,10 @@ The goal was to design a web application that is accessible from the internet bu
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-While designing this project, i decided that i didnt want my web application to be directly exposed to the internet. whys that?
-if my web app is exposed to the internet, attackers can scan for vulnerabilities, using tools like nmap, nikto or automated bots trying to find:
+While designing this project, I realized I didn’t want my web application to be directly exposed to the internet.
+Why is that?
+
+When a web app is publicly exposed, it becomes an easy target for attackers. They can freely scan it for vulnerabilities using tools like Nmap, Nikto, or automated bots that constantly crawl the internet looking for weaknesses. These scans can reveal: 
 - Open Ports
 - Outdated Frameworks
 - Exposed endpoints
