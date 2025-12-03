@@ -44,5 +44,6 @@ It handles all incoming traffic, but more importantly, I configured it with:
 <img width="1187" height="819" alt="project1" src="https://github.com/user-attachments/assets/5e9d711e-f618-424b-a90c-c552f237f95f" /><br>
 
 I configured a backend pool so the Application Gateway knows where to route incoming traffic to my web application<br>
-<img width="1263" height="567" alt="image" src="https://github.com/user-attachments/assets/442be686-41fa-47b5-b7de-1625eccc2f30" />
+<img width="1269" height="541" alt="image" src="https://github.com/user-attachments/assets/17c3f3d6-ba6f-40b0-81d8-ef6ba9a53071" />
+
 
