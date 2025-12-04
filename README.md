@@ -54,7 +54,8 @@ I configured a backend pool so the Application Gateway knows where to route inco
 I created some custom rules on the WAF, including a geoblocking and rate limiting rule.<br>
 <img width="1519" height="607" alt="image" src="https://github.com/user-attachments/assets/a82c4ac6-6f00-4890-b0e4-71c33053fa01" />
 
-To continue monitoring all services, ive decided to create a Log Analytics workspace to centralize all the logs. These logs will then be sent to Sentinel.
+To continue monitoring all services, ive decided to create a Log Analytics workspace to centralize all the logs. These logs will then be sent to Sentinel.<br>
+
 <img width="384" height="390" alt="image" src="https://github.com/user-attachments/assets/8e869fc2-9306-4217-aa98-1d3430a44eb4" />
 
 
