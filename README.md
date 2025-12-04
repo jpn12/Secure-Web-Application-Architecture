@@ -39,6 +39,7 @@ This meant I could safely connect to my VMs without punching holes in the firewa
 ---------------------------------------------------------------------------------------
 
 <img width="792" height="371" alt="image" src="https://github.com/user-attachments/assets/7e466fc8-ee1c-4d81-95ac-d7056a215f72"/><br>
+
 The Application Gateway became the front door of this architecture.
 It handles all incoming traffic, but more importantly, I configured it with:
 - Frontend IP & port listeners
@@ -52,6 +53,10 @@ I configured a backend pool so the Application Gateway knows where to route inco
 
 I created some custom rules on the WAF, including a geoblocking and rate limiting rule.<br>
 <img width="1519" height="607" alt="image" src="https://github.com/user-attachments/assets/a82c4ac6-6f00-4890-b0e4-71c33053fa01" />
+
+To continue monitoring all services, ive decided to create a Log Analytics workspace to centralize all the logs. These logs will then be sent to Sentinel.
+<img width="384" height="390" alt="image" src="https://github.com/user-attachments/assets/8e869fc2-9306-4217-aa98-1d3430a44eb4" />
+
 
 
 
