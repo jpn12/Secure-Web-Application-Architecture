@@ -58,7 +58,11 @@ To continue monitoring all services, ive decided to create a Log Analytics works
 
 <img width="384" height="390" alt="image" src="https://github.com/user-attachments/assets/8e869fc2-9306-4217-aa98-1d3430a44eb4" /><br>
 
-<img width="1095" height="643" alt="SEND" src="https://github.com/user-attachments/assets/2555dbf9-097b-451c-807f-38df32f03e57" />
+<img width="1095" height="643" alt="SEND" src="https://github.com/user-attachments/assets/2555dbf9-097b-451c-807f-38df32f03e57"/><br>
+
+
+https://github.com/user-attachments/assets/4915e617-be75-4d38-8366-bea5877c5691
+
 
 
 
