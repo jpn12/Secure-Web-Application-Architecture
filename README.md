@@ -57,6 +57,9 @@ I created some custom rules on the WAF, including a geoblocking and rate limitin
 To continue monitoring all services, ive decided to create a Log Analytics workspace to centralize all the logs. These logs will then be sent to Sentinel.<br>
 
 <img width="384" height="390" alt="image" src="https://github.com/user-attachments/assets/8e869fc2-9306-4217-aa98-1d3430a44eb4" />
+<br>
+
+<img width="1139" height="635" alt="SEND" src="https://github.com/user-attachments/assets/d7bce6eb-df65-4b77-8692-75ea2992dbfe" />
 
 
 
