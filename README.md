@@ -52,7 +52,7 @@ It handles all incoming traffic, but more importantly, I configured it with:
 I configured a backend pool to ensure the application gateway can correctly route incoming traffic to my web application<br>
 <img width="1269" height="541" alt="image" src="https://github.com/user-attachments/assets/17c3f3d6-ba6f-40b0-81d8-ef6ba9a53071" />
 
-I created some custom rules on the WAF, including a geoblocking and rate limiting rule.<br>
+My web app started receiving some malicious requests, so I created custom rules on the WAF, including geoblocking, rate-limiting rules, and activated the OWASP module.<br>
 <img width="1519" height="607" alt="image" src="https://github.com/user-attachments/assets/a82c4ac6-6f00-4890-b0e4-71c33053fa01" />
 
 To continue monitoring all services, ive decided to create a Log Analytics workspace to centralize all the logs. These logs will then be sent to Sentinel.<br>
