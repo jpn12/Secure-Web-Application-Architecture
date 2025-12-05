@@ -69,7 +69,7 @@ After creating some alerts, I went on to build a few playbooks for automated res
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-
+The web application I deployed is the OWASP Juice Shop, an intentionally insecure application commonly used for security training and vulnerability testing.<br>
 
 
 https://github.com/user-attachments/assets/3b7ebbe3-b146-4d84-bdc1-356f8596a81e
