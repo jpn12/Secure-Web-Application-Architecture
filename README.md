@@ -21,7 +21,7 @@ When a web app is publicly exposed, it becomes an easy target for attackers. The
 I built a Virtual Network (VNet) and created 4 subnets within it to provide network segmentation:
 - Web Application Subnet
 - VM Subnet
-- Bastion Subnet
+- Bastion Subnet<br>
 Azure requires the Application Gateway to have its own dedicated subnet, so I created the App Gateway Subnet and deployed the gateway there. From that subnet, it routes traffic internally to the Web Application Subnet, where my web application is hosted on Azure App Service. The app is not directly exposed to the internet and does not have a public IP
 
 To simulate a real environment, i added a VM subnet.
