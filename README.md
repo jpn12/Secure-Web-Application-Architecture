@@ -63,6 +63,12 @@ To continue monitoring all services, ive decided to create a Log Analytics works
 
 https://github.com/user-attachments/assets/4915e617-be75-4d38-8366-bea5877c5691
 
+------------------------------------------------------------------------------------
+
+
+
+https://github.com/user-attachments/assets/88b465b1-7e69-4e22-beac-9335e2dd5049
+
 
 
 
