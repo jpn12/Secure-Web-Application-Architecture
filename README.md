@@ -49,7 +49,7 @@ It handles all incoming traffic, but more importantly, I configured it with:
 
 <img width="1187" height="819" alt="project1" src="https://github.com/user-attachments/assets/5e9d711e-f618-424b-a90c-c552f237f95f" /><br>
 
-I configured a backend pool so the Application Gateway knows where to route incoming traffic to my web application<br>
+I configured a backend pool to ensure the application gateway can correctly route incoming traffic to my web application<br>
 <img width="1269" height="541" alt="image" src="https://github.com/user-attachments/assets/17c3f3d6-ba6f-40b0-81d8-ef6ba9a53071" />
 
 I created some custom rules on the WAF, including a geoblocking and rate limiting rule.<br>
