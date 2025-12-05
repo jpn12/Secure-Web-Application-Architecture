@@ -7,16 +7,7 @@ The goal was to design a web application that is accessible from the internet bu
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-While designing this project, I realized I didn’t want my web application to be directly exposed to the internet.
-Why is that?
-
-When a web app is publicly exposed, it becomes an easy target for attackers. They can freely scan it for vulnerabilities using tools like Nmap, Nikto, or automated bots that constantly crawl the internet looking for weaknesses. These scans can reveal: 
-- Open Ports
-- Outdated Frameworks
-- Exposed endpoints
-- misconfigurations
-- etc...
-
+As I planned the architecture, I decided that my web application should not be directly exposed to the internet. By keeping it internal, I could reduce the attack surface, avoid direct traffic hitting the App Service, and ensure that all inbound access is filtered and inspected through the Application Gateway and WAF.
 
 I built a Virtual Network (VNet) and created 4 subnets within it to provide network segmentation:
 - Web Application Subnet
