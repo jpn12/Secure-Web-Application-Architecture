@@ -69,7 +69,11 @@ https://github.com/user-attachments/assets/4915e617-be75-4d38-8366-bea5877c5691
 
 https://github.com/user-attachments/assets/88b465b1-7e69-4e22-beac-9335e2dd5049
 
+-----------------------------------------------------------------------------------
 
+After creating some alerts, I went on to build a few playbooks for automated response<br>
+
+<img width="1273" height="589" alt="creating" src="https://github.com/user-attachments/assets/fb9011ad-7ea8-47e2-a271-21e2f674cac2" />
 
 
 
