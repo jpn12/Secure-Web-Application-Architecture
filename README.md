@@ -16,7 +16,7 @@ I built a Virtual Network (VNet) and created 4 subnets within it to provide netw
 Azure requires the Application Gateway to have its own dedicated subnet, so I created the App Gateway Subnet and deployed the gateway there. From that subnet, it routes traffic internally to the Web Application Subnet, where my web application is hosted on Azure App Service.
 
 To simulate a real environment, i added a VM subnet.
-here i placed a virtual machine that represents optional backend workloads—databases, internal services, or admin tools.
+here i placed a virtual machine that represents optional backend workloads, databases, internal services, or admin tools.
 
 <img width="510" height="401" alt="image" src="https://github.com/user-attachments/assets/a4b9664b-6173-4b35-8f19-c2393b2ed9a1"/><br>
 
