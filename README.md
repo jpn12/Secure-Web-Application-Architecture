@@ -11,18 +11,18 @@ As I planned the architecture, I decided that my web application should not be d
 
 I built a Virtual Network (VNet) and created 4 subnets within it to provide network segmentation:
 - Web Application Subnet
-- VM Subnet
-- Bastion Subnet<br>
-Azure requires the Application Gateway to have its own dedicated subnet, so I created the App Gateway Subnet and deployed the gateway there. From that subnet, it routes traffic internally to the Web Application Subnet, where my web application is hosted on Azure App Service.
+- VM Subnet (for optional backend workloads and internal services)
+- Bastion Subnet (for secure, non-exposed access to VMs)
+- Application Gateway Subnet (required for the Azure Application Gateway)
+The Application Gateway, deployed in its own subnet, routes traffic to the Web Application Subnet, where the web app is hosted on Azure App Service.
 
 To simulate a real environment, i added a VM subnet.
 here i placed a virtual machine that represents optional backend workloads, databases, internal services, or admin tools.
 
 <img width="510" height="401" alt="image" src="https://github.com/user-attachments/assets/a4b9664b-6173-4b35-8f19-c2393b2ed9a1"/><br>
 
-but i also wanted to avoid exposing SSH/RDP ports, so i implemented bastion.<br>
-It provides SSH/RDP access directly through the Azure portal, without being exposed to the internet.
-This meant I could safely connect to my VMs without punching holes in the firewall.<br>
+To avoid exposing SSH/RDP ports, I implemented Azure Bastion, which allows secure, browser-based access to VMs through the Azure portal.
+This means I can connect to my VMs without needing to open any ports or punch holes in the firewall.<br>
 
 <img width="1021" height="641" alt="image" src="https://github.com/user-attachments/assets/d99898ad-3a81-4f4a-83b8-0c521e36e103" />
 
