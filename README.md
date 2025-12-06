@@ -21,7 +21,7 @@ here i placed a virtual machine that represents optional backend workloads, data
 
 <img width="510" height="401" alt="image" src="https://github.com/user-attachments/assets/a4b9664b-6173-4b35-8f19-c2393b2ed9a1"/><br>
 
-To avoid exposing SSH/RDP ports, I implemented Azure Bastion, which allows secure, browser-based access to VMs through the Azure portal.
+To avoid exposing SSH/RDP ports, I implemented Azure Bastion, which allows secure, browser-based access to VMs through the Azure portal.<br>
 This means I can connect to my VMs without needing to open any ports or punch holes in the firewall.<br>
 
 <img width="1021" height="641" alt="image" src="https://github.com/user-attachments/assets/d99898ad-3a81-4f4a-83b8-0c521e36e103" />
