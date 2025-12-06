@@ -33,10 +33,10 @@ This means I can connect to my VMs without needing to open any ports or punch ho
 
 The Application Gateway became the front door of this architecture.
 It handles all incoming traffic, but more importantly, I configured it with:
-- Frontend IP & port listeners
+- Frontend IP and port listeners
 - HTTP/HTTPS routing rules
-- Backend rules
-- Web Application Firewall (WAF)
+- A backend pool to route traffic correctly to the web app
+- WAF for additional security, including geoblocking, rate-limiting, and the OWASP security module
 
 <img width="1187" height="819" alt="project1" src="https://github.com/user-attachments/assets/5e9d711e-f618-424b-a90c-c552f237f95f" /><br>
 
@@ -46,7 +46,8 @@ I configured a backend pool to ensure the application gateway can correctly rout
 My web app started receiving some malicious requests, so I created custom rules on the WAF, including geoblocking, rate-limiting rules, and activated the OWASP module.<br>
 <img width="1519" height="607" alt="image" src="https://github.com/user-attachments/assets/a82c4ac6-6f00-4890-b0e4-71c33053fa01" />
 
-To continue monitoring all services, ive decided to create a Log Analytics workspace to centralize all the logs. These logs will then be sent to Sentinel.<br>
+I set up a Log Analytics workspace to centralize logs from all services, which are forwarded to Azure Sentinel for advanced threat detection.<br> 
+Additionally, I created automated playbooks to respond to security incidents rapidly.<br>
 
 <img width="384" height="390" alt="image" src="https://github.com/user-attachments/assets/8e869fc2-9306-4217-aa98-1d3430a44eb4" /><br>
 
